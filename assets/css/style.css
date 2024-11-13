@@ -6,7 +6,6 @@
 */
 
 /* global styles */
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 body {
@@ -22,11 +21,18 @@ h2 {
     /* dark-blue */
 }
 
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
+
 /* About section */
 
 #about {
     background-color: white;
 }
+
 
 /* Portfolio */
 
@@ -50,11 +56,13 @@ h2 {
     min-height: 120px;
 }
 
+
 /* Contact section */
 
 #contact {
     background-color: white;
 }
+
 
 /* Header */
 
@@ -67,6 +75,7 @@ h2 {
     min-height: 500px;
     padding: 5% 7%;
 }
+
 
 /* Media queries */
 
